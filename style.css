@@ -1,0 +1,65 @@
+/* create a header, header is a container for logo and menu */
+.header {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/*create 3 columns in for the body */
+.body {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* create a column for the left side of the body */
+.left {
+    width: 20%;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* create a column for the right side of the body */
+.right {
+    width: 20%;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* create a column for the center of the body */
+.center {
+    width: 60%;
+    height: 100%;
+    background-color: #000000;
+}
+
+/* create a footer */
+.footer {
+    background-color: #000000;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* change opacity of background image */
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.1;
+}
+
+
+
+
