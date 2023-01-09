@@ -1,16 +1,39 @@
 .
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title style="color: rgb(255, 255, 255);font-family: Arial" >My Static Site</title>
-<style type="text/css">
-    body {
-        background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.685)), url("background.jpg")  no-repeat center/cover;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>The Fountain</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.753)), url("img/bg1.jpg")  no-repeat center/cover;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color: rgb(255, 255, 255);font-family: Helvetica">SHUBHO MUKHERJEE</h1>
-    <p style="color: rgb(255, 255, 255);font-family: Helvetica">WELCOME TO THE FOUNTAIN</p>
+
+    <div class="hero">
+        <nav>
+            <img src="./img/eye.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#" class="btn">Fountain</a>
+        </nav>
+
+        <div class="content">
+            <span class="title">WELCOME TO THE FOUNTAIN</span>
+            <h1>Hello, I’m <span>Shubho</span></h1>
+            <p>I am currently a student at Toronto Metropolitan University studying Computer Science</p>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+    </div>
+
 </body>
 </html>
